@@ -43,7 +43,7 @@ def css():
 
 @app.errorhandler(404)
 def page_not_fount(e):
-    return f"{e}: Fucking page not found you idiot!"
+    return f"{e}: Page not found you idiot!"
 
 
 if __name__ == '__main__':
